@@ -1,0 +1,170 @@
+body, h1, p {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #00242b;
+}
+
+p {
+    display: block;
+}
+.content {
+    margin: 0;
+    padding: 0;
+    background: #a33030;
+}
+
+.centralContent {
+    background: #797373;
+    max-width: 920px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.picture {
+    cursor: pointer;
+    max-width: 400px;
+    margin: 0 auto;
+    display: none;    
+}
+
+li {
+    list-style: none;
+
+}
+
+.conteiner_1 {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner_2 {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteiner_3 {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteiner_4 {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteiner_5 {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.imgCopy:hover { 
+    display: block;
+}
+.sloganCopy {
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+}
+.conteiner_1:hover ~ .imgCopy { 
+    display: block;
+} 
+
+
+
+
+.conteiner_2:hover ~ .imgCalm { 
+    display: block;
+} 
+
+.sloganCalm {
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.imgCalm:hover { 
+    display: block;
+}
+
+
+
+
+
+.conteiner_3:hover ~ .imgBalance { 
+    display: block;
+} 
+.sloganBalance {
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+}
+.imgBalance:hover { 
+    display: block;
+}
+
+
+
+
+.conteiner_4:hover ~ .imgDude { 
+    display: block;
+}
+.sloganDude {
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+}
+.imgDude:hover { 
+    display: block;
+}
+
+
+
+.conteiner_5:hover ~ .imgRelax { 
+    display: block;
+} 
+.sloganRelax {
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+}
+.imgRelax:hover { 
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.ico {
+    width: 30px;
+    height: 30px;
+}
+.close {
+    height: 30px;
+    width: 30px;
+    transition: all 1s ease 0s;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close:hover {
+    transform: rotate(360deg);
+}
+
