@@ -2,10 +2,18 @@ body, h1, p {
     font-family: 'Jost', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #00242b;
+    margin: 0;
+
 }
 
 p {
     display: block;
+}
+.centralContent {
+    min-height: 1080px;
+}
+.centralContent:active {
+    background: #000;
 }
 .content {
     margin: 0;
@@ -21,11 +29,17 @@ p {
 }
 
 .picture {
-    cursor: pointer;
+
     max-width: 400px;
     margin: 0 auto;
-    display: none;    
+    display: none;  
+    transition: all 1s ease 0s;  
 }
+
+.picture:hover {
+    transform: scale(1.2, 1);
+}
+
 
 li {
     list-style: none;
@@ -38,7 +52,9 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
+
 
 .conteiner_2 {
     margin: 0 auto;
@@ -76,11 +92,12 @@ li {
 .sloganCopy {
     margin-bottom: 0;
     margin-top: 0;
-    cursor: pointer;
+   
 }
 .conteiner_1:hover ~ .imgCopy { 
     display: block;
 } 
+
 
 
 
@@ -92,7 +109,7 @@ li {
 .sloganCalm {
     margin-bottom: 0;
     margin-top: 0;
-    cursor: pointer;
+ 
 }
 
 .imgCalm:hover { 
@@ -109,7 +126,7 @@ li {
 .sloganBalance {
     margin-bottom: 0;
     margin-top: 0;
-    cursor: pointer;
+  
 }
 .imgBalance:hover { 
     display: block;
@@ -124,7 +141,7 @@ li {
 .sloganDude {
     margin-bottom: 0;
     margin-top: 0;
-    cursor: pointer;
+    
 }
 .imgDude:hover { 
     display: block;
@@ -138,7 +155,7 @@ li {
 .sloganRelax {
     margin-bottom: 0;
     margin-top: 0;
-    cursor: pointer;
+
 }
 .imgRelax:hover { 
     display: block;
@@ -162,9 +179,95 @@ li {
     width: 30px;
     transition: all 1s ease 0s;
     transform: rotate(45deg);
-    cursor: pointer;
+
 }
 .close:hover {
     transform: rotate(360deg);
 }
 
+@media (min-width: 821px) {
+    .centralContent {
+        cursor: pointer;
+    }
+ .picture {
+    cursor: pointer;
+ }
+ .close {
+    cursor: pointer;
+ }
+ .sloganBalance {
+    cursor: pointer;
+ }
+ .sloganCalm {
+    cursor: pointer;
+
+ }
+ .sloganCopy {
+    cursor: pointer;
+ }
+ .sloganDude {
+    cursor: pointer;
+ }
+ .sloganRelax {
+    cursor: pointer;
+ }
+}
+
+@media (max-width: 820px) {
+    .centralContent {
+        background: #f71111;
+    }
+}
+@media (max-width: 320px) {
+    .centralContent {
+        background: #d7da17;
+
+    }
+
+    .picture {
+        max-width: 300px;
+        
+    }
+    .conteiner_1 {
+        width: 90%;
+    }
+    .conteiner_2 {
+        width: 90%;
+    }
+    .conteiner_3 {
+        width: 90%;
+    }
+    .conteiner_4 {
+        width: 90%;
+    }
+    .conteiner_5 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 545px) {
+    .centralContent {
+        background: #d7da17;
+
+    }
+
+    .picture {
+        max-width: 300px;
+        
+    }
+    .conteiner_1 {
+        width: 90%;
+    }
+    .conteiner_2 {
+        width: 90%;
+    }
+    .conteiner_3 {
+        width: 90%;
+    }
+    .conteiner_4 {
+        width: 90%;
+    }
+    .conteiner_5 {
+        width: 90%;
+    }
+}
